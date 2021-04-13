@@ -3950,3 +3950,14 @@ input, select, textarea {
 			opacity: 1;
 			visibility: visible;
 		}
+	
+	.login-class{
+		width: 60%;
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+		margin : auto;
+	}
+	.header{
+		text-align: center;
+	}
