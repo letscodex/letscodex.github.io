@@ -38,7 +38,7 @@
         Signup to LetsCode.
     </h1>
     
-<form action="index.php">
+<form action="src/index.php" method="POST">
 <div class="login-class">
     <label for="email">Email</label>
     <input type="email" name="email" id="email" required>
@@ -46,8 +46,10 @@
     <input type="text" name="usrname" id="usrname">
     <label for="password">Password</label>
     <input type="password" name="password" id="password">
-    <label for="confirm-password">Password</label>
-    <input type="password" name="password" id="confirm-password">
+    <label for="confirm-password">Confirm Password</label>
+    <input type="password" name="password" id="confirm_password">
+    <br><br>
+    <button class="btn">Submit</button>
 </div>
 </form>
 </div>
